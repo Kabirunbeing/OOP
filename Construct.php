@@ -10,4 +10,5 @@
     }
 $access = new Practice('Object Oriented Programming');
 echo $access->Learn();
+// var_dump($access)
 ?>
