@@ -7,7 +7,7 @@ class CreditCard extends PaymentMethod {
     }
 }
 
-class PayPal extends PaymentMethod {
+class PayPal extends PaymentMethod {    
     public function processPayment(float $amount): string {
         return "Processed a PayPal payment of $" . number_format($amount, 2);
     }
